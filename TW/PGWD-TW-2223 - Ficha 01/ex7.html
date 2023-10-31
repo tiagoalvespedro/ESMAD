@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tiago Pedro - 40230468">
+    <title>ex7</title>
+</head>
+<body>
+    <header>
+        <h1>Reviews</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Pato de Borracha Amarelo</h1>
+            <img src="/TW/PGWD-TW-2223 - Ficha 01/data/2081_12a.jpg" alt="Pato de Borracha Amarelo">
+        </section>
+
+        <section>
+            <article>
+                <h2>Anónimo</h2>
+                <p>⭐⭐⭐⭐</p>
+                <p>Bom produto! Adoro.</p>
+            </article>
+
+            <article>
+                <h2>Anónimo</h2>
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>Este produto excedeu as minhas expectativas. Recomendo!</p>
+            </article>
+
+            <article>
+                <h2>Anónimo</h2>
+                <p>⭐⭐⭐</p>
+                <p>É razoável, mas não tem muita qualidade.</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Adiciona a tua review</h2>
+            <div>
+                <label for="username">Nome:</label>
+                <input type="text" id="username" required>
+            </div>
+
+            <div>
+                <label for="rating">Pontuação (1-5):</label>
+                <input type="number" id="rating" min="1" max="5" required>
+            </div>
+
+            <div>
+                <label for="review">Review:</label>
+                <textarea id="review" rows="4" required></textarea>
+            </div>
+
+            <div>
+                <button>Submit</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
